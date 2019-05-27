@@ -1,1 +1,3 @@
-var test="test1";console.log(test);
+var test = 'test2'
+console.log(test)
+//# sourceMappingURL=test.js.map

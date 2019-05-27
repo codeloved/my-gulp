@@ -5,7 +5,7 @@ var less = require('gulp-less')
 var autoprefixer = require('gulp-autoprefixer')
 // 压缩css
 var minifycss = require('gulp-minify-css')
-// 压缩js(v4不兼容?)
+// 压缩js
 var uglify = require('gulp-uglify')
 //错误处理插件
 var plumber = require('gulp-plumber')

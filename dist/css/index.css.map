@@ -1,1 +1,1 @@
-{"version":3,"sources":["index.less"],"names":[],"mappings":"AAAA,YAEI,MAAA","file":"index.css","sourcesContent":[".test {\r\n  .less {\r\n    color: red;\r\n  }\r\n}"]}
+{"version":3,"sources":["index.less","index.css"],"names":[],"mappings":"AAAA;EAEI,UAAA;EACA,eAAA;ACAJ","file":"index.css","sourcesContent":[".test {\r\n  .less {\r\n    color: red;\r\n    font-size: 16px;\r\n  }\r\n}",".test .less {\n  color: red;\n  font-size: 16px;\n}\n"]}

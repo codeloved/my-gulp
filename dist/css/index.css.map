@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.less"],"names":[],"mappings":"AAAA,YAEI,MAAA","file":"index.css","sourcesContent":[".test {\r\n  .less {\r\n    color: red;\r\n  }\r\n}"]}

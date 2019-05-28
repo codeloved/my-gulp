@@ -1,1 +1,0 @@
-{"version":3,"sources":["test/test.less","test/test.css"],"names":[],"mappings":"AAAA;EAEI,+BAAA;UAAA,uBAAA;ACAJ","file":"test/test.css","sourcesContent":[".test {\r\n  .less {\r\n    transform: rotate(7deg)\r\n  }\r\n}",".test .less {\n  transform: rotate(7deg);\n}\n"]}

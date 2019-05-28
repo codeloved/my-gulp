@@ -1,1 +1,0 @@
-{"version":3,"names":[],"mappings":"","sources":["test/test.js"],"sourcesContent":["var test = 'test2'\r\nconsole.log(test)"],"file":"test/test.js"}

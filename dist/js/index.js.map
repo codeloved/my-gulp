@@ -1,1 +1,0 @@
-{"version":3,"names":[],"mappings":"","sources":["index.js"],"sourcesContent":["var a = 1;\r\nconsole.log('a', a)"],"file":"index.js"}

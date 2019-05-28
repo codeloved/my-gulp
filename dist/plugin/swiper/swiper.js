@@ -1,1 +1,1 @@
-var swiper = '我是swiper插件1'
+var swiper = '我是swiper插件3'

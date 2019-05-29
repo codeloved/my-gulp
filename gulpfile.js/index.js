@@ -16,7 +16,8 @@ const { rev } = require('./rev')
 const { release } = require('./release')
 
 // 定义任务时,不能使用cb(),应该使用return,否则会series串行中,无法使用rev读取当前总任务前面任务生成的文件,出现莫名bug
+// watch必须放在server前面,不然不生效, 观看cmd打印进程知道,server后的任务,不会执行
 
-exports.default = series(clean, parallel(js, less, copy, html, images), server, watch, rev)
+exports.default = series(clean, parallel(js, less, copy, html, images), watch, server)
 exports.build = series(clean, parallel(js, less, copy, html, images), rev)
-exports.release = series(rev, release)
+exports.release = series(release)

@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["a","console","log"],"mappings":";;AAAA,IAAIA,CAAC,GAAG,EAAR,C,CAAY;;AACZC,OAAO,CAACC,GAAR,CAAY,GAAZ,EAAiBF,CAAjB","sourcesContent":["let a = 22; // let 为es6语法,在dist会被babel转码\r\nconsole.log('a', a)"],"file":"index.js"}

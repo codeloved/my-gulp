@@ -1,1 +1,5 @@
-.test .less{-webkit-transform:rotate(7deg);transform:rotate(7deg)}
+.test .less {
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
+}
+/*# sourceMappingURL=test.css.map */

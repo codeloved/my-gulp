@@ -19,13 +19,12 @@ const connect = require('gulp-connect')
 
 // livereload 热更新无效
 function server(cb) {
-  connect.server({
+  return connect.server({
     root: 'dist',
     livereload: true,
     port: 3005,
     name: 'dev server'
   })
-  cb()
 }
 
 exports.server = server

@@ -37,7 +37,7 @@
     "gulp-rev": "^9.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-zip": "^4.2.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.6",
     "require-dir": "^1.2.0"
   }
 }
